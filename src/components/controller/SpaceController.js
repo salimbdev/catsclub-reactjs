@@ -6,7 +6,7 @@ import SpaceView from "../view/SpaceView";
 
 export default function SpaceController(props) {
 
-    const backUrl = "http://localhost:8081/api/space";
+    const backUrl = "http://34.163.123.95:8081/api/space";
 
     const [owner,] = useContext(myContext);
 

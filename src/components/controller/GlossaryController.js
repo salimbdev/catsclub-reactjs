@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import GlossaryView from "../view/GlossaryView";
 
 export default function GlossaryController(){
-    const backUrl = "http://localhost:8081/api/glossary";
+    const backUrl = "http://34.163.123.95:8081/api/glossary";
 
 
     const [expression, setExpression] = useState(null);

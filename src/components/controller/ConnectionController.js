@@ -5,7 +5,7 @@ import ConnectionView from "../view/ConnectionView";
 
 export default function ConnectionController() {
 
-    const backUrl = "http://localhost:8081/api/security";
+    const backUrl = "http://34.163.123.95:8081/api/security";
 
     const [owner, setOwner] = useContext(myContext);
 

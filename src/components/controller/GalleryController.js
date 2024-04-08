@@ -6,7 +6,7 @@ import {myContext} from "../../index";
 
 export default function GalleryController(props) {
 
-    const backUrl = "http://localhost:8081/api/gallery";
+    const backUrl = "http://34.163.123.95:8081/api/gallery";
     const [owner, ] = useContext(myContext);
 
 
